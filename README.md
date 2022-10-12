@@ -7,4 +7,4 @@ Se crea repositorio para curso completo de html con sus diversos ejemplos.
 - 4.index4=imagenes
 - 5.index5=tablas
 - 6.index6=listas 
-- 7.index7-formularios 
+- 7.index7-index8 = formularios 
