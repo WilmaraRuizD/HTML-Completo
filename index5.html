@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+        }
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!--Tablas-->
+    <table style="width:100%">
+       <!--Fila-->
+       <tr>
+        <!--columnas-->
+        <!--Encabezado de las filas -->
+         <th>Nombre</th>
+         <th>Apellido</th>
+         <th>email</th>
+       </tr>
+       <tr>
+            <!--Colunmas normales-->
+            <td>Wilmara</td>
+            <td>Ruiz</td>
+            <td>Wilmara_Andreina93@hotmail.com</td>
+       </tr>
+       <tr>
+        <!--Colunmas normales-->
+        <!--para ocupar dos columnas-->
+            <td colspan="2">Wilmara Ruiz</td>
+            <td>Wilmara_Andreina93@hotmail.com</td>
+        </tr>
+        <tr>
+    <!--Colunmas normales-->
+            <td>Wilmara</td>
+            <!--para ocupar dos filas-->
+            <td rowspan="2">Ruiz</td>
+            <td>Wilmara_Andreina93@hotmail.com</td>
+</tr>
+<tr>
+    <!--Colunmas normales-->
+    <td>Wilmara</td>
+    <td>Ruiz</td>
+    <td>Wilmara_Andreina93@hotmail.com</td>
+</tr>
+    </table>
+</body>
+</html>
