@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Elemento input -->
+    <form action="">
+            <!--input de tipo texto-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <!--input de tipo texto-->
+        <label for="apellido">apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <!--input de tipo texto-->
+
+    </form>
+ <br>
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <!--input de contraseña-->
+
+        <label for="ipass">Contraseña:</label>
+        <input type="password" name="ipass" id="ipass">
+
+          <!--input submit para enviar -->
+        <input type="submit" value="Enviar">
+          <!--input submit para resetear (Borra todo) -->
+        <input type="reset" value="resetear">
+    </form>
+
+    <br>
+
+    <form action="">
+        <input id ="red" name= "Color"type="radio"
+        value="red">
+        <Label for="red">Rojo</Label>
+        <br>
+        <input id ="greed" name= "Color"type="radio"
+        value="greed">
+        <Label for="greed">Verde</Label>
+        <br>
+        <input id ="blue" name= "Color"type="radio"
+        value="blue">
+        <Label for="blue">Azul</Label>
+    </form>
+
+    <br>
+    <!--checkbox para celecionar barios-->
+
+    <form action="">
+        <input id ="red" name="red"type="checkbox"
+        value="red">
+        <Label for="red">Rojo</Label>
+        <br>
+        <input id ="greed" name= "greed"type="checkbox"
+        value="greed">
+        <Label for="greed">Verde</Label>
+        <br>
+        <input id ="blue" name="blue"type="checkbox"
+        value="blue">
+        <Label for="blue">Azul</Label>
+    </form>
+
+    <!--Impu de tipo button-->
+    <br>
+    <form action="">
+    <input type="button" name="" id=""value="Botón">
+</form>
+<!--Input de tipo color -->
+<form action="">
+    <input type="color" name ="color">
+</form>
+<!--Input de tipo date-->
+<form action="">
+    <input type="date" name ="date">
+</form>
+<!--Input de tipo datatime-local -->
+<form action="">
+    <input type="datetime-local" name ="datatime-local">
+</form>
+<!--Input de tipo fichero -->
+<form action="">
+    <input type="file" name ="file">
+</form>
+<!--Input de tipo mes -->
+<form action="">
+    <input type="month" name ="Mes">
+</form>
+<!--Input de tipo numero -->
+<form action="">
+    <input type="number" name ="num">
+</form>
+<!--Input de tipo rago -->
+<form action="">
+    <input type="range" name ="num" min="0" max="50">
+</form>
+<!--Input de tipo busquedas -->
+<form action="">
+    <input type="search" name ="search" >
+</form>
+<!--tipo telefono -->
+<form action="">
+    <input type="tel" name ="tel" >
+</form>
+<!--tipo horas-->
+<form action="">
+    <input type="time" name ="time" >
+</form>
+<!--url-->
+<form action="">
+    <input type="url" name ="url" >
+</form>
+
+<!--de tipo week se selecciona semanas-->
+<form action="">
+    <input type="week" name ="week" >
+</form>
+<!--atrubutos-->
+<!--value valor por defecto-->
+<form action="">
+    <input type="text" name="name" value="Wilmara">
+</form>
+<!--value readonly solo de lectura-->
+<form action="">
+    <input type="text" value="Wilmara"name="name" readonly>
+</form>
+<!--atributo desabilitado campo no se envia -->
+<form action="">
+    <input type="text" value="Wilmara"name="name" disabled>
+</form>
+
+<!--atributo que solo envia una cantidad definida de caracteres size=6 -->
+<form action="">
+    <input type="text" size="6">
+</form>
+<!--Se define un maximo de caracteres-->
+<form action="">
+    <input type="text" maxlength="6">
+</form>
+
+<!--Se define un maximo y un minimo-->
+<form action="">
+    <input type="number" max="6" min="4">
+</form>
+
+<!--multiple : Se puede seleccionar barios ficheros a la vez-->
+<form action="">
+    <input type="file" multiple>
+</form>
+
+<!--multiple : Se puede seleccionar barios ficheros a la vez-->
+<form action="">
+    <input type="text" pattern="[A-za-z]{3}">
+    <input type="submit">
+</form>
+<!--required =requerido placeholder rellena el imput al principio-->
+<form action="">
+    <input type="text" placeholder="Wilmara" required>
+    <input type="submit">
+</form>
+
+<!-- step=salta de numero en numero -->
+<form action="">
+    <input type="number" step="5">
+</form>
+
+<!--autofocus recarga el puntero en el autofocus-->
+<form action="">
+    <input type="text" name="name">
+    <input type="text" name="surname" autofocus >
+    <input type="submit">
+</form>
+
+<!--para desabilitar el autocompetado del navegador autocapitalize="off"-->
+<form action="">
+    <input type="text" name="name" autocapitalize="off">
+    <input type="text" name="surname" >
+    <input type="submit">
+</form>
+</body>
+</html>
