@@ -14,3 +14,4 @@ Se crea repositorio para curso completo de HTML con sus diversos ejemplos.
 - 11.index12=video de YouTube
 - 12.index13=citas, menciones y Abreviaciones.
 - 13.index14=elementos en línea y en bloques y elemento div 
+- 14.index15=caracteristicas de layout y etiquetas especiales. 
